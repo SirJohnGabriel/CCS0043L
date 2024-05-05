@@ -7,7 +7,7 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .flex-container-main{
@@ -79,10 +79,44 @@ html, body {
 
 .content-bar-middle{
     flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-bar-middle-top{
+    margin-left: 2em;
+    font-size: 0.5em;
+}
+
+.content-bar-middle-bottom{
+    margin-left: 4em;
+    font-size: 0.6em;
 }
 
 .content-bar-bottom{
+    padding-top: 1em;
     flex: 2;
+    display: flex;
+}
+
+.bottom-top-skills{
+    font-size: 0.5em;
+    margin-left: 2em;
+}
+
+.bottom-bottom-experiences{
+    font-size: 0.5em;
+    margin-left: 2em;
+}
+
+.bottom-top-skills_content{
+    margin-left: 4em;
+    font-size: 0.7em;
+}
+
+.bottom-bottom-experiences_content{
+    margin-left: 4em;
+    font-size: 0.7em;
 }
 
 .child-content-bar-top{

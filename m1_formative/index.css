@@ -7,7 +7,14 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    /** font-size: 9px; Adjust this accordingly based on browser's screen size
+    /* 
+    The entire page is based on Flexboxes,
+    the only thing needed to be adjusted
+    for dynamic viewport is the font-size of the
+    html and body document 
+    */
+    font-size: calc(0.75rem + 0.01vw);
 }
 
 .flex-container-main{
@@ -125,4 +132,17 @@ html, body {
 
 .content-bar-top-left, .content-bar-top-right{
     flex: 1;
+}
+
+.content-bar-top-right img{
+    width: 100%;
+    height: 16em;
+}
+
+.content-bar-middle-bottom h1{
+    font-size: 1.5em;
+}
+
+.content-bar-middle-bottom p{
+    line-height: 1.6em;
 }

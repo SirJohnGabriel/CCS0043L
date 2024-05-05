@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+.flex-container-main{
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 40%;
+    height: 100%;
+}
+
+.flex-container-main-child{
+    height: 100%;
+}
+
+.info-bar{
+    flex: 1;
+    background-color: rgb(33, 37, 40);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.info-bar p{
+    writing-mode: vertical-rl;
+    padding-top: 2.5em;
+    font-size: 0.8em;
+}
+
+.info-bar-p-se{
+    flex: 1;
+}
+
+.info-bar-p-email{
+    flex: 2;
+    margin-top: 12em;
+}
+
+.content-bar{
+    flex: 18;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-main-child-contant-bar{
+    width: 100%;
+}
+
+.content-bar-top{
+    flex: 1.3;
+    display: flex;
+    background: linear-gradient(to left, rgb(18, 18, 18), rgb(33, 37, 40));
+    color: rgb(255, 255, 255);
+}
+
+.content-bar-top p{
+    font-size: 0.5em;
+}
+
+.content-bar-top h3{
+    margin: 0;
+    font-size: 1.4em;
+    padding: 0;
+    line-height: 85%;
+}
+
+.bar-top-left-container{
+    padding: 2.5em 0em 0em 3em;
+}
+
+.content-bar-middle{
+    flex: 2;
+}
+
+.content-bar-bottom{
+    flex: 2;
+}
+
+.child-content-bar-top{
+    height: 100%;
+}
+
+.content-bar-top-left, .content-bar-top-right{
+    flex: 1;
+}
